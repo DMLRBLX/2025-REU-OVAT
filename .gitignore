@@ -11,11 +11,11 @@ Code/crop_part1/*
 Code/UTKFace/*
 Code/utkface_aligned_cropped/*
 
-Code/Design\ \Ideas/OUTPUT\ \[ASCII]\ \[NOT USING]/*
-Code/Design\ \Ideas/OUTPUT\ \[FLATTENED]/*
-Code/Design\ \Ideas/OUTPUT\ \[GREYSCALE]/*
-Code/Design\ \Ideas/OUTPUT\ \[LT]/*
-Code/Design\ \Ideas/OUTPUT\ \[PIXELATED]\ \[NOT USING]/*
+Code/Design\ Ideas/OUTPUT\ \[ASCII]\ \[NOT USING]/*
+Code/Design\ Ideas/OUTPUT\ \[FLATTENED]/*
+Code/Design\ Ideas/OUTPUT\ \[GREYSCALE]/*
+Code/Design\ Ideas/OUTPUT\ \[LT]/*
+Code/Design\ Ideas/OUTPUT\ \[PIXELATED]\ \[NOT USING]/*
 
 # User-specific files
 .venv

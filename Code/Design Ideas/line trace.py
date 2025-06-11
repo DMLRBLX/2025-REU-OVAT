@@ -6,9 +6,9 @@ import math
 import traceback # For more detailed error printing
 
 # --- Configuration ---
-INPUT_FOLDER = "Design Ideas/INPUT"   # <--- CHANGE THIS
-OUTPUT_FOLDER = "Design Ideas/OUTPUT [LT]" # <--- CHANGE THIS
-PREDICTOR_PATH = "Design Ideas/shape_predictor_68_face_landmarks.dat" # Download this file
+INPUT_FOLDER = "Code/INPUT [FIXED]" # Source images
+OUTPUT_FOLDER = "Code/Design Ideas/OUTPUT [LT]"
+PREDICTOR_PATH = "Code/face_detector.dat"
 
 TARGET_SIZE_W = 220
 TARGET_SIZE_H = 220

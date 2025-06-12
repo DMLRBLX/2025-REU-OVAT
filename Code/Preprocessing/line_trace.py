@@ -6,12 +6,12 @@ import math
 import traceback # For more detailed error printing
 
 # --- Configuration ---
-INPUT_FOLDER = "Code/INPUT [UTKFace]" # Source images
-OUTPUT_FOLDER = "Code/design_ideas/OUTPUT [LT]"
+INPUT_FOLDER = "Code/Input/input_fixed/INPUT [UTKFace]" # Source images
+OUTPUT_FOLDER = "Code/preprocessing_output/utkface_output/OUTPUT [LT]"
 PREDICTOR_PATH = "Code/face_detector.dat"
 
 TARGET_SIZE_W = 220
-TARGET_SIZE_H = 220
+TARGET_SIZE_H = 220 
 FACE_CROP_PADDING_FACTOR = 0.30
 
 DLIB_LINE_SETS = {

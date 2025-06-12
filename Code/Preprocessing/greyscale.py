@@ -4,8 +4,8 @@ import os
 import traceback
 
 # --- Configuration ---
-INPUT_FOLDER = "Code/INPUT [UTKFace]" # Source images
-OUTPUT_FOLDER = "Code/design_ideas/OUTPUT [GREYSCALE]" # Output for this version
+INPUT_FOLDER = "Code/Input/input_fixed/INPUT [UTKFace]" # Source images
+OUTPUT_FOLDER = "Code/preprocessing_output/utkface_output/OUTPUT [GREYSCALE]" # Output for this version
 
 # Supported image extensions
 IMAGE_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.bmp', '.tiff', '.webp')

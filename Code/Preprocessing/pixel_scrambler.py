@@ -6,9 +6,9 @@ import random
 import traceback
 
 # --- Configuration ---
-INPUT_FOLDER = "Code/INPUT [UTKFace]" # Source images
-OUTPUT_FOLDER = "Code/design_ideas/OUTPUT [SCRAMBLED]" # Output folder for scrambled faces
-PREDICTOR_PATH = "Code/face detector.dat" # For Dlib face detection (detector only needed)
+INPUT_FOLDER = "Code/Input/input_fixed/INPUT [UTKFace]" # Source images
+OUTPUT_FOLDER = "Code/preprocessing_output/utkface_output/OUTPUT [SCRAMBLED]" # Output folder for scrambled faces
+PREDICTOR_PATH = "Code/face_detector.dat" # For Dlib face detection (detector only needed)
 
 # Face detection and initial resize settings
 TARGET_SIZE_W = 220 # Width of the face image before scrambling

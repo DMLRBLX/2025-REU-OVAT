@@ -6,8 +6,8 @@ import math
 import traceback # For more detailed error printing
 
 # --- Configuration ---
-INPUT_FOLDER = "Code/Input/input_fixed/INPUT [UTKFace]" # Source images
-OUTPUT_FOLDER = "Code/preprocessing_output/utkface_output/OUTPUT [LT]"
+INPUT_FOLDER = "Code/Input/input_fixed/INPUT [WIKI]" # Source images
+OUTPUT_FOLDER = "Code/preprocessing_output/wiki_output/OUTPUT [LT]"
 PREDICTOR_PATH = "Code/face_detector.dat"
 
 TARGET_SIZE_W = 220

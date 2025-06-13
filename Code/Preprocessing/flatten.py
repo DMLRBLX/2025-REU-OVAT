@@ -8,8 +8,8 @@ from collections import defaultdict
 import traceback
 
 # --- Configuration ---
-INPUT_FOLDER = "Code/Input/input_fixed/INPUT [UTKFace]" # Source images PARENT folder
-OUTPUT_FOLDER = "Code/preprocessing_output/utkface_output/OUTPUT [FLATTENED]" # Output PARENT folder
+INPUT_FOLDER = "Code/Input/input_fixed/INPUT [WIKI]" # Source images PARENT folder
+OUTPUT_FOLDER = "Code/preprocessing_output/wiki_output/OUTPUT [FLATTENED]" # Output PARENT folder
 # PREDICTOR_PATH = "Code/face detector.dat" # No longer needed
 
 # Target size for the resized image (full image will be resized to this)

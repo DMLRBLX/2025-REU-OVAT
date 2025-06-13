@@ -68,17 +68,17 @@ def batch_convert_to_grayscale(input_parent_dir, output_parent_dir):
                 # Output filename will be the same as input, in the corresponding output subfolder
                 output_image_path = os.path.join(output_subdir_path, filename)
 
-                print(f"Processing: {input_image_path} -> Grayscale")
+                print(f"Processing: {input_image_path} -> Greyscale")
                 if convert_to_grayscale_single_image(input_image_path, output_image_path):
                     stats["SUCCESS"] += 1
                 else:
                     stats["FAILED"] += 1
             
-    print(f"\n--- Grayscale Conversion Summary ---")
+    print(f"\n--- Greyscale Conversion Summary ---")
     print(f"Total Image Files Scanned: {stats['TOTAL_FILES_SCANNED']}")
     print(f"Successfully Converted: {stats['SUCCESS']}")
     print(f"Failed to Convert: {stats['FAILED']}")
-    print("Batch grayscale conversion complete.")
+    print("Batch greyscale conversion complete.")
 
 
 if __name__ == "__main__":
